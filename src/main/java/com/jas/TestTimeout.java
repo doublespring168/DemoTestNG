@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 //超时可用于性能测试，以确保方法在合理的时间内返回
 public class TestTimeout {
     @Test(timeOut = 5000)
-    public void testThisShouldPass() throws InterruptedException{
+    public void testThisShouldPass() throws InterruptedException {
         Thread.sleep(4000);
     }
 
     @Test(timeOut = 1000)
-    public void testThisShouldFail(){
-        while (true){
+    public void testThisShouldFail() {
+        while (true) {
 
         }
     }

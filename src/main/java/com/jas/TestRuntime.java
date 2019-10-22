@@ -1,6 +1,5 @@
 package com.jas;
 
-import org.junit.rules.ExpectedException;
 import org.testng.annotations.Test;
 
 /**
@@ -9,8 +8,8 @@ import org.testng.annotations.Test;
 public class TestRuntime {
     //ArithmeticException 出现异常的运算条件
     @Test(expectedExceptions = ArithmeticException.class)
-    public void divisionWithException(){
-        int i =1/0;
+    public void divisionWithException() {
+        int i = 1 / 0;
         System.out.println("After division the value of i is :" + i);
     }
 }

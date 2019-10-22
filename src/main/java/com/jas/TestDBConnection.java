@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
  */
 public class TestDBConnection {
     @Test
-    public void runOtherTest1(){
-        System.out.println("@Test - runOtherTest1");
+    public void runOtherTest1() {
+        System.out.println(this.getClass().getSimpleName() + " -->  @Test - runOtherTest1");
     }
 
     @Test
-    public void runOtherTest2(){
-        System.out.println("@Test - runOtherTest2");
+    public void runOtherTest2() {
+        System.out.println(this.getClass().getSimpleName() + " -->  @Test - runOtherTest2");
     }
 }

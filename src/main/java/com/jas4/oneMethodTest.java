@@ -9,8 +9,9 @@ import java.text.SimpleDateFormat;
  */
 public class oneMethodTest {
     private SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
     @BeforeMethod
-    public void beforeClass(){
-        System.out.println("Current Thread Id: " + Thread.currentThread().getId()+". Dataprovider number");
+    public void beforeClass() {
+        System.out.println("Current Thread Id: " + Thread.currentThread().getId() + ". Dataprovider number");
     }
 }

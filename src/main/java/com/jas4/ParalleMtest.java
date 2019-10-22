@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
  */
 public class ParalleMtest {
     @Test(invocationCount = 5, threadPoolSize = 5)
-    public void smallThreadPool(){
-        System.out.println("Current Thread is "+ Thread.currentThread().getId());
+    public void smallThreadPool() {
+        System.out.println("Current Thread is " + Thread.currentThread().getId());
     }
 }

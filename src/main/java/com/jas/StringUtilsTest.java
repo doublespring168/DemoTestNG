@@ -15,7 +15,7 @@ public class StringUtilsTest {
     }
 
     @Test
-    public void trim(){
-        assert  "foo".equals(StringUtils.trim(" foo "));
+    public void trim() {
+        assert "foo".equals(StringUtils.trim(" foo "));
     }
 }

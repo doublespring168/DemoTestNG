@@ -7,15 +7,17 @@ import org.testng.annotations.Test;
  */
 public class TestIgnore {
     @Test
-    public void test1(){
+    public void test1() {
         System.out.println("testng......test1");
     }
+
     @Test(enabled = false)
-    public void test2(){
+    public void test2() {
         System.out.println("testng......test2");
     }
+
     @Test
-    public void test3(){
+    public void test3() {
         System.out.println("testng......test3");
     }
 }

@@ -11,21 +11,21 @@ import org.testng.annotations.BeforeTest;
 public class DBConfig {
     @BeforeSuite
     public void beforeSuite() {
-        System.out.println("@BeforeSuite");
+        System.out.println(this.getClass().getSimpleName() + " -->  @BeforeSuite");
     }
 
     @AfterSuite
     public void afterSuite() {
-        System.out.println("@AfterSuite");
+        System.out.println(this.getClass().getSimpleName() + " -->  @AfterSuite");
     }
 
     @BeforeTest
     public void beforeTest() {
-        System.out.println("@BeforeTest");
+        System.out.println(this.getClass().getSimpleName() + " -->  @BeforeTest");
     }
 
     @AfterTest
     public void afterTest() {
-        System.out.println("@AfterTest");
+        System.out.println(this.getClass().getSimpleName() + " -->  @AfterTest");
     }
 }
